@@ -1,0 +1,29 @@
+{
+  "name": "goodread-quotes-api",
+  "version": "1.0.0",
+  "description": "API to fetch quotes from the Goodreads website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tintindas/goodread-quotes-api.git"
+  },
+  "keywords": [
+    "quotes",
+    "goodreads",
+    "api"
+  ],
+  "author": "Upamanyu Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tintindas/goodread-quotes-api/issues"
+  },
+  "homepage": "https://github.com/tintindas/goodread-quotes-api#readme",
+  "devDependencies": {
+    "tsx": "^3.8.2",
+    "typescript": "^4.7.4"
+  }
+}
