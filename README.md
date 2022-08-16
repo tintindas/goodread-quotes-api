@@ -1,3 +1,3 @@
-# goodread-quotes-api
+# goodreads-quotes-api
 
 API for fetching quotes from the Goodreads website.
