@@ -18,8 +18,12 @@ app.get("/random", async (req: Request, res: Response) => {
   res.send(quotes[Math.floor(Math.random() * quotes.length)]);
 });
 
-app.get("/query", (req: Request, res: Response) => {
-  res.send("Return quote pertaining to query string");
+app.get("/:query", async (req: Request, res: Response) => {
+  const query = req.params.query;
+  const url = getUrl(baseUrl, query);
+  const markup = await getMarkup(url);
+  const quotes = buildQuoteArray(markup);
+  res.send(quotes);
 });
 
 app.listen(PORT, () => {
