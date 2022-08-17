@@ -26,3 +26,5 @@ const buildQuoteArray = (markup: string) => {
 
   return quoteArray;
 };
+
+export { buildQuoteArray };

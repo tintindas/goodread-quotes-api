@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/tintindas/goodread-quotes-api#readme",
   "devDependencies": {
+    "@types/node": "^18.7.6",
     "tsx": "^3.8.2",
     "typescript": "^4.7.4"
   },
